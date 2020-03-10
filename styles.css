@@ -1,0 +1,38 @@
+.h1,
+h1 {
+    font-size: 39px;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 375px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-height: 823px) {
+
+    .navbar-logo-img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+@media (max-width: 667px) {
+
+    small {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 568px) {
+
+    small {
+        font-size: 10px;
+    }
+}
